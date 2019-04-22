@@ -1,0 +1,39 @@
+html
+
+.header__title {
+	background:rgb(255,255,255); 
+}
+ 
+
+}
+.button {
+  color: #c7c7c8; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: black; /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+} 
+
+/*  font-family: 'Raleway', sans-serif;  */
+ a.button:hover { background: rgb(255,255,255); } /* при наведении курсора мышки */
+ /* при нажатии */
+
+.container2 {
+	width: 1140px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.row: after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.col-4 {
+	width: 370px;
+	margin-right: 10px;
+	float: left;
+
+}
