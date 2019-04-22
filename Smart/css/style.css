@@ -1,0 +1,386 @@
+/* Colors */
+/*Basic setting*/
+/*МЕНЮ */
+html {
+  overflow-x: hidden;
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+button a i {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  outline: none;
+}
+/* 
+
+
+
+
+ */
+#header {
+  background-color: #f5f5f5;
+}
+.header {
+  padding-top: 30px;
+  height: 50px;
+  padding-bottom: 80px;
+}
+.header p {
+  font-size: 38px;
+  color: #494949;
+  border: solid;
+  border-color: #808080;
+  text-align: center;
+}
+.header span {
+  color: #fa9179;
+}
+ul.main {
+  margin: 0;
+  /* Обнуляем значение отступов */
+  padding: 4px;
+  cursor: pointer;
+  /* Значение полей */
+}
+ul.main li {
+  display: inline;
+  /* Отображать как строчный элемент */
+  margin-right: 5px;
+  /* Отступ слева */
+}
+ul.main li a {
+  color: black;
+  text-decoration: none;
+  width: 20px;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 5px;
+}
+ul.main li a:hover {
+  color: #fa9179;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-color: #808080;
+          text-decoration-color: #808080;
+}
+.header-title {
+  padding-top: 20px;
+  padding-bottom: 65px;
+  margin-top: 5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.header-title h1 {
+  font-size: 45px;
+  color: #808080;
+}
+.header-title span {
+  color: #fc6f4e;
+}
+.header-title p {
+  font-size: 13px;
+  color: #a0a0a0;
+}
+h1 {
+  color: black;
+}
+span {
+  color: #fc6f4e;
+}
+.header-form {
+  margin-left: 60px;
+  width: 300px;
+  padding: 30px 40px;
+  border: solid;
+  border-color: white;
+  background-color: white;
+  border-radius: 25px;
+  -webkit-box-shadow: 5px -5px #e4e4e4;
+          box-shadow: 5px -5px #e4e4e4;
+}
+.header-form h1 {
+  text-align: center;
+}
+.header-form input {
+  display: block;
+  border: 1px solid grey;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 15px;
+}
+.header-form label {
+  display: inline-block;
+  position: absolute;
+  padding: 0.5rem;
+}
+.header-form .btn {
+  display: inline-block;
+  background-color: #fc6f4e;
+  width: 100%;
+  height: 35px;
+  font-size: 15px;
+  border-radius: 50px;
+}
+.header-form .btn:hover {
+  cursor: pointer;
+  border: 1px #fc6f4e solid;
+  background-color: #fdac99;
+}
+/* 
+
+
+
+
+ */
+#Portfolio {
+  background-color: white;
+  padding-bottom: 13rem;
+}
+.title {
+  padding: 9rem;
+  text-align: center;
+}
+.title h1 {
+  font-size: 45px;
+  color: black;
+  margin-right: 10px;
+}
+.title span {
+  color: #fc6f4e;
+}
+.title p {
+  font-size: 15px;
+  color: #808080;
+}
+.portfolio-block {
+  text-align: center;
+  display: inline-block;
+}
+.portfolio-block i {
+  display: block;
+  font-size: 83px;
+}
+.portfolio-block p {
+  line-height: 25px;
+  font-size: 25px;
+}
+.portfolio-block span {
+  font-size: 14px;
+}
+.portfolio-block .btn-portfolio {
+  margin-top: -10px;
+  font-size: 15px;
+  margin-left: 5px;
+  width: 220px;
+  background-color: #fc6f4e;
+  height: 35px;
+  border-radius: 50px;
+}
+.portfolio-block .btn-portfolio:hover {
+  cursor: pointer;
+  border: 1px #fc6f4e solid;
+  background-color: #fdac99;
+}
+/* services 
+
+
+
+
+
+*/
+.ser-title {
+  text-align: center;
+  padding-bottom: 6.4rem;
+}
+.ser-title h1 {
+  font-size: 45px;
+}
+.ser-title p {
+  font-size: 15px;
+}
+.ser-content ul {
+  list-style: none;
+}
+.ser-content .back img {
+  position: absolute;
+  padding: 10px;
+}
+.ser-content .up img {
+  position: relative;
+  margin-left: 25px;
+  z-index: 99999;
+  padding: 10px;
+  margin-top: 25px;
+}
+.ser-content .iphone {
+  margin-top: 6rem;
+}
+.ser-content h2 {
+  color: #808080;
+  font-size: 32px;
+}
+.ser-content hr {
+  width: 55px;
+  background-color: #fc6f4e;
+  height: 1px;
+  margin-left: 0px;
+}
+.ser-content p {
+  font-size: 20px;
+}
+.ser-content .btn-portfolio {
+  margin-top: 20px;
+  font-size: 15px;
+  margin-left: 5px;
+  width: 220px;
+  background-color: #ffffff;
+  height: 45px;
+  border-radius: 50px;
+  border: 1px solid grey;
+}
+.ser-content .btn-portfolio:hover {
+  cursor: pointer;
+  border: 1px #fc6f4e solid;
+  background-color: #fc6f4e;
+}
+.slick-active {
+  outline: none;
+}
+.arrow {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  position: absolute;
+  z-index: 9999;
+  top: 50%;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  background-size: 70%;
+}
+.prev {
+  left: 0;
+  background: url(../img/arrow-circle-left-solid.svg) center no-repeat;
+}
+.next {
+  right: 0;
+  background: url(../img/arrow-circle-right-solid.svg) center no-repeat;
+}
+/*  
+
+
+
+
+*/
+#Client {
+  padding-bottom: 5rem;
+}
+.Clienttitle {
+  padding: 10rem;
+  text-align: center;
+}
+.Clienttitle h1 {
+  font-size: 45px;
+  color: black;
+  margin-right: 10px;
+}
+.Clienttitle span {
+  color: #fc6f4e;
+}
+.Clienttitle p {
+  font-size: 15px;
+  color: #808080;
+}
+.conten1 {
+  display: inline-block;
+  margin-bottom: 55px;
+  border: 1px solid #808080;
+  height: 100%;
+  padding: 4rem;
+}
+.conten1 p {
+  font-size: 18px;
+}
+.conten1:hover {
+  -webkit-box-shadow: 0 0 5px 1px;
+          box-shadow: 0 0 5px 1px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.ol li {
+  color: red;
+}
+.fas {
+  margin-top: -30px;
+  font-size: 65px;
+}
+.carousel-control-next span {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+}
+.carousel-control-prev span {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+}
+/* 
+
+
+
+
+*/
+.footer {
+  padding: 4rem;
+}
+.footer .btn-footer {
+  margin-top: 20px;
+  font-size: 15px;
+  margin-left: 5px;
+  width: 220px;
+  background-color: #ffffff;
+  height: 45px;
+  border-radius: 50px;
+  border: 1px solid grey;
+}
+.footer .btn-footer:hover {
+  cursor: pointer;
+  border: 1px #fc6f4e solid;
+  background-color: #fc6f4e;
+}
+.footer .footertitle {
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 17px;
+}
+.footer .icons {
+  margin-top: 15px;
+  font-size: 35px;
+}
+.footer .icons a {
+  text-decoration: none;
+  color: black;
+}
+.footer .icons i:hover {
+  cursor: pointer;
+  color: #fc6f4e;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+@media (min-width: 760) and (max-width: 1200) {
+  .syka2 {
+    display: inline-block;
+    width: 283px;
+    margin-right: 250px;
+    padding-right: 260px;
+  }
+}

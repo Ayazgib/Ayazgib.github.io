@@ -1,0 +1,66 @@
+/*МЕНЮ */
+html 
+{
+	font-size: 10px;
+}
+body {
+	margin:0;
+}
+
+
+
+a {
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.header {
+	padding-top:30px;
+	height: 50px;	
+}
+
+.col-md-2 {
+	font-size: 38px;
+	color: 494949;
+	
+}
+.col-md-2 p {
+	border: solid;
+	border-color: rgb(128,128,128);
+	text-align: center;
+}
+.col-md-2 span {
+	color: rgb(250,145,121);
+}
+
+
+ul.main {
+	
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px;
+    cursor:pointer;
+    /* Значение полей */
+   }
+ ul.main li  {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    }
+ul.main li a{
+	color: black;
+    text-decoration: none;
+    width: 20px;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    margin-right:5px;
+}
+
+ul.main li a:hover
+{
+	color: rgb(250,145,121);
+	text-decoration-line:underline;
+	text-decoration-color: rgb(128,128,128)
+
+}
+
+.
