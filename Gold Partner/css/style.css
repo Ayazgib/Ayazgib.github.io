@@ -1,0 +1,136 @@
+/* HEADER */
+
+.head {
+	padding-top: 15px;
+}
+
+.head i {
+margin-right: 20px;
+float:left;
+margin-top: 4px;
+font-size: 25px;
+}
+.content {
+	padding-top: 30px;
+	padding-bottom: 60px;
+
+}
+.content img {
+	width:1100px;
+	padding-left: 160px; 
+}
+
+/* HEADER END */
+
+
+/* SECOND PAGE */
+
+.second-title p {
+padding-top: 25px;
+font-size: 22px;
+padding-bottom: 15px;
+}
+
+.second-content {
+padding-top: 45px;
+text-align: center;	 
+padding-left:80px;
+
+}
+.second-content i {
+	margin-left:13px; 
+	font-size: 40px;
+	padding-bottom: 15px;
+
+}
+
+.container2 {
+	padding-top: 90px;
+	padding-bottom: 50px;
+}
+
+.container2 p {
+	padding-left: 30px;
+	padding-top: 25px;
+	top: 18px;
+	font-size: 15px;
+	position: absolute;
+	}	
+
+.image {
+	padding-top: 5	5px;		
+	width: 200px;
+	position: relative;
+}
+
+.container2 button {
+	margin-top: 45px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 5px 5px 10px 10px;
+	margin-left:55px;
+	border: solid 2px black;
+}
+
+.container2 button :hover {
+	color: #ffff;
+	background-color: yellow;
+}
+/*SECOND PAGE END */
+
+/*list */
+.list-title {
+	font-size: 25px;
+	padding: 65px 65px;
+}
+
+.content-title {
+font-size: 35px;
+padding: 50px 50px;
+}
+.third-page {
+	padding-bottom: 100px;
+}
+.third-page p {
+	font-size: 20px;
+	padding-bottom: 25px;
+}
+
+.third-page input {
+	margin-right: 15px;
+}
+
+.third-page button {
+	background-color: yellow;
+	border-radius: 10px;
+	padding: 5px 5px 5px 5px;	
+	width: 100px;
+	border: none;
+	opacity: 0.9;
+}
+
+.footer {
+	padding-top:80px;
+	background: #585454;	
+}
+
+.footer p {
+ padding-top: 75px;
+color: white;
+}
+.footer i {
+	color: white;
+	font-size: 25px;
+	margin-right: 20px;
+}
+.footer i:hover {
+	color: yellow;
+} 
+.footer span  {
+	color: white;
+}
+/* list END */
+
+/*FOOTER */
+
+/*FOOTER END */
