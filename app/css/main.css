@@ -1,0 +1,100 @@
+body {
+  background-color: #000000; }
+
+.beginTitle {
+  margin: 0 auto;
+  vertical-align: center;
+  font-family: "StarJedi";
+  font-size: 400px;
+  line-height: 410px;
+  color: black;
+  -webkit-animation: starMove 15s;
+          animation: starMove 15s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  text-shadow: 3px 3px yellow, 3px -3px yellow, -3px 3px yellow, -3px -3px yellow, 3px 3px 6px rgba(0, 0, 0, 0.5); }
+
+.wrap {
+  -webkit-perspective-origin: center center;
+          perspective-origin: center center;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-perspective: 600px;
+          perspective: 600px;
+  display: block;
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto; }
+
+.txt {
+  -webkit-transform-style: inherit;
+          transform-style: inherit;
+  -webkit-perspective: inherit;
+          perspective: inherit;
+  color: yellow;
+  font-size: 50px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transform: scale3d(1, 1, 1) rotateX(25deg);
+          transform: scale3d(1, 1, 1) rotateX(25deg);
+  -webkit-animation: move 50s infinite;
+          animation: move 50s infinite;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  font-family: 'Roboto';
+  margin-top: 200px;
+  display: none; }
+
+@-webkit-keyframes move {
+  from {
+    margin-top: 120px;
+    -webkit-transform: scale3d(1, 1, 1) rotateX(25deg);
+            transform: scale3d(1, 1, 1) rotateX(25deg); }
+  to {
+    margin-top: -1500px;
+    -webkit-transform: scale3d(0.5, 0.5, 0) rotateX(25deg);
+            transform: scale3d(0.5, 0.5, 0) rotateX(25deg); } }
+
+@keyframes move {
+  from {
+    margin-top: 120px;
+    -webkit-transform: scale3d(1, 1, 1) rotateX(25deg);
+            transform: scale3d(1, 1, 1) rotateX(25deg); }
+  to {
+    margin-top: -1500px;
+    -webkit-transform: scale3d(0.5, 0.5, 0) rotateX(25deg);
+            transform: scale3d(0.5, 0.5, 0) rotateX(25deg); } }
+
+@-webkit-keyframes starMove {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+    opacity: 1; }
+  to {
+    -webkit-transform: scale3d(0.2, 0.2, 1);
+            transform: scale3d(0.2, 0.2, 1);
+    opacity: 0; } }
+
+@keyframes starMove {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+    opacity: 1; }
+  to {
+    -webkit-transform: scale3d(0.2, 0.2, 1);
+            transform: scale3d(0.2, 0.2, 1);
+    opacity: 0; } }
+
+@font-face {
+  font-family: "StarJedi";
+  src: url("../fonts/Starjedi.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }

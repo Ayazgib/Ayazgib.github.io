@@ -1,0 +1,59 @@
+$yellow: yellow
+body
+    background-color: #000000
+#starWars 
+    
+.beginTitle
+    margin: 0 auto;
+    vertical-align: center
+    font-family: "StarJedi"
+    font-size: 400px
+    line-height: 410px
+    color: black
+    animation: starMove 15s 
+    animation-fill-mode: forwards
+    text-shadow: 3px 3px $yellow, 3px -3px $yellow, -3px 3px $yellow, -3px -3px $yellow, 3px 3px 6px rgba(0,0,0,.5);
+.wrap
+    perspective-origin: center center
+    transform-style: preserve-3d
+    perspective: 600px
+    display: block
+    width: 50vw
+    margin-left: auto
+    margin-right: auto
+.txt
+    transform-style: inherit
+    perspective: inherit;
+    color: $yellow
+    font-size: 50px
+    text-align: center
+    display: flex
+    flex-direction: column
+    transform: scale3d(1, 1, 1) rotateX(25deg)
+    animation: move 50s infinite
+    animation-delay: 5s
+    animation-fill-mode: forwards
+    font-family: 'Roboto'
+    margin-top: 200px
+    display: none
+@keyframes move
+    from 
+        margin-top: 120px
+        transform: scale3d(1, 1, 1) rotateX(25deg)
+    to 
+        
+        margin-top: -1500px
+        transform: scale3d(0.5, 0.5, 0) rotateX(25deg)
+@keyframes starMove
+    from 
+         transform: scale3d(1, 1, 1)
+         opacity: 1
+    to
+         transform: scale3d(0.2, 0.2, 1) 
+         opacity: 0
+
+@font-face 
+    font-family: "StarJedi"; 
+    src: url("../fonts/Starjedi.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 

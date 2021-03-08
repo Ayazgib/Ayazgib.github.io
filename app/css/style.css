@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    top: 0;
+    margin: 0;
+}
+/*
+font-family: 'Shadows Into Light', cursive;
+*/
+#header {
+    height: 80px;
+    width: 100vw;
+    background: rgba(214, 218, 28, 0.96);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.clock {
+    position: absolute;
+    left: 100px;
+    top: 18px;
+}
+#name {
+    position: absolute;
+    left: 150px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 43px;
+}
+.timerSection {
+    background: #262626;
+    height: calc(100vh - 80px);
+    transition: 1s;
+}
+.timerSectionChange {
+    background: rgba(214, 218, 28, 1);
+}
+.timerInp {
+    width: 134px;
+    height: 41px;
+    background: rgba(38, 38, 38, 0.99);
+    border: none;
+    color: #CFD31C;
+    font-size: 23px;
+    text-align: center;
+}
+.timerInp:focus {
+    outline: none;
+    cursor: pointer;
+}
+.timerBtn{
+    width: 164px;
+    height: 41px;
+    background: #262626;
+    color: #CFD31C;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20.5px;
+    margin-left: 10px;
+    padding: -10px;
+    border: none;
+}
+
+.timerBtn:focus {
+    outline: none;
+    cursor: pointer;
+}
+.timerSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 200px;
+}
+.timer {
+    color: #CFD31C;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 200px;
+    width: 1200px;
+    transition: 1.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+.timerChange {
+    color: #262626;
+}
+.timerInp::placeholder {
+    color:rgba(214, 218, 28, 0.96)
+}
